@@ -1,14 +1,14 @@
 
 import Header from './components/header'
 import Footer from './components/footer'
-import './App.css'
+import Body from './components/body'
 
 function App () {
   return (
     <>
-      <Header name={'Ap'}/>
-      <div> Heloda prro </div>
-      <Footer/>
+      <Header name={'Jipson Murillo'} />
+      <Body />
+      <Footer />
     </>
   )
 }
