@@ -1,0 +1,29 @@
+{
+  "notes": [
+    {
+      "content": "Esta siempre sera mi primera nota :)",
+      "important": true,
+      "id": 1
+    },
+    {
+      "content": "Esta siempre sera mi segund nota",
+      "important": true,
+      "id": 2
+    },
+    {
+      "content": "mi otra nota",
+      "important": false,
+      "id": 3
+    },
+    {
+      "content": "Mi otra super Nota",
+      "important": false,
+      "id": 4
+    },
+    {
+      "content": "Jobzi",
+      "important": false,
+      "id": 5
+    }
+  ]
+}
