@@ -1,5 +1,6 @@
 import { useContext } from 'react'
 import UserContext from '../context/userContext'
+import styles from '../style/mystyle.module.css'
 
 const Header = ({ name = 'name' }) => {
   const { user, setUser } = useContext(UserContext)
@@ -9,7 +10,7 @@ const Header = ({ name = 'name' }) => {
   }
 
   return (
-    <header>
+    <header className={ styles.header }>
         <p>Mi nombre vienen de las props {name}</p>
         <div>mi user of context: {user.user}</div>
         <div>name: {user.name}</div>

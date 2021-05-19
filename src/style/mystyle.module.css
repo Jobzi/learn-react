@@ -1,0 +1,21 @@
+.header {
+  grid-area: header;
+  background-color: teal;
+}
+
+.bigblue {
+  color: DodgerBlue;
+  padding: 40px;
+  font-family: Arial;
+  text-align: center;
+}
+.content {
+  grid-area: content;
+  align-items: center;
+  height: 20rem;
+  background-color: darkgrey;
+}
+.footer {
+  grid-area: footer;
+  background-color: thistle;
+}

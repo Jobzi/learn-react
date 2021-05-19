@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from 'react'
 import { TodoList } from './components/todoList'
+import style from '../../style/mystyle.module.css'
 
 const KEY = 'todoApp.todo'
 
@@ -41,12 +42,12 @@ export const TodoComponent = () => {
     setTodo(newTodo)
   }
   return (
-        <>
+        <div className={style.content}>
             <TodoList todos={todo} toggleTodo={toggleTodo}/>
             <input ref={todoTaskRef} type="text" placeholder="Nueva Tarea"></input>
             <button onClick={handleAddTodo}>+</button>
             <button onClick={handleClearAll}>Delete</button>
             <div>Te quedan {todo.filter((tod) => !tod.completed).length} tareas por terminar</div>
-        </>
+        </div>
   )
 }
